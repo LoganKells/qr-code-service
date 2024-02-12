@@ -5,6 +5,13 @@
 A simple Spring REST service that will generate a QR Code that encodes the content you choose.
 Any string passed as a URL parameter can be encoded as a QR code! [1]
 
+For example, the "helloWorld" String can be encoded using the application endpoint.
+http://localhost:8080/api/qrcode?contents=helloWorld
+
+Pointing your smartphone camera at the QR code will display "helloWorld" to decode the QR code.
+
+!["Hello World"](./images/qrcode.png)
+
 ## Install and Run
 
 - Install Maven
